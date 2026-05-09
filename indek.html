@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>plafonsultan.id</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+.gallery{
+    padding:60px 20px;
+
+    text-align:center;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:20px;
+}
+.gallery img{
+    object-fit:cover;
+}
+section{
+    padding-left:20px;
+    padding-right:20px;
+}
+.logo:hover{
+  color:#444;
+    letter-spacing:1px;
+}
+body{
+    overflow-x:hidden;
+}
+.hero img:hover{
+    transform:scale(1.03);
+}
+.cta{
+  max-width:800px;
+  margin:40px auto;
+  box-shadow:0 20px 40px rgba(0,0,0,0.12);
+  transition:0.4s;
+  background:white;
+  border-radius:30px;
+  padding:80px 20px;
+  text-align:center;
+}
+
+.cta h2{
+    font-size:32px;
+
+    margin-bottom:25px;
+}
+.cta:hover{
+    transform:translateY(-5px);
+}
+h1,h2,h3{
+    line-height:1.3;
+}
+html{
+    scroll-behavior:smooth;}
+.testi{
+    padding:60px 20px;
+
+    text-align:center;
+}
+footer{
+  
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+}
+footer p:hover{
+    letter-spacing:1px;
+} 
+footer p{
+    transition:0.3s;
+}
+
+.gallery img{
+    width:100%;
+
+    max-width:320px;
+
+    border-radius:20px;
+
+    margin-top:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+.gallery img:hover{
+    transform:scale(1.03) rotate(1deg);
+
+    box-shadow:0 20px 40px rgba(0,0,0,0.25);
+}
+.services{
+    padding:60px 20px;
+
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:30px;
+
+    font-size:32px;
+}
+
+.card{
+    background:white;
+    backdrop-filter:blur(10px);
+    padding:25px;
+
+    border-radius:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+.card h3{
+    margin-bottom:10px;
+}
+.card p{
+    color:#666;
+
+    line-height:1.6;
+}
+.card:hover{
+    transform:translateY(-10px) scale(1.02);
+}
+.card:hover h3{
+    color:#555;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(
+to bottom,
+#f8f8f8,
+#ececec
+);
+
+    color:#222;
+}
+
+.navbar{
+  padding:20px 30px;
+    background:rgba(255,255,255,0.7);
+z-index:1000;
+backdrop-filter:blur(10px);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+}
+
+.logo{
+  transition:0.3s;
+    font-size:22px;
+
+    font-weight:700;
+
+    color:#111;
+}
+.hero p{
+    max-width:600px;
+
+    margin:auto;
+
+    margin-top:15px;
+
+    color:#666;
+
+    line-height:1.7;
+}
+.hero{
+    padding-top:140px;
+
+    text-align:center;
+
+    padding-left:20px;
+
+    padding-right:20px;
+}
+.hero img:hover{
+    transform:scale(1.03);
+
+    box-shadow:0 20px 40px rgba(0,0,0,0.25);
+}
+.hero img{
+    width:100%;
+
+    max-width:350px;
+
+    border-radius:25px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.hero h1{
+    font-size:38px;
+
+    margin-top:30px;
+}
+.button{
+    display:inline-block;
+
+    margin-top:25px;
+
+    background:#111;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:15px;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    transition:0.3s;}
+    .button:hover{
+    transform:translateY(-5px);
+
+    background:#333;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+.button:active{
+    transform:scale(0.96);
+}
+.hero,
+.gallery,
+.services,
+.testi{
+    animation:muncul 1s;
+}
+
+@keyframes muncul{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+</style>
+
+</head>
+
+<body>
+<div class="navbar">
+
+<div class="logo">
+plafonsultan.id
+</div>
+
+</div>
+
+<section class="hero">
+  
+
+<img src="https://i.ibb.co.com/9mbJvjMV/file-00000000c210720b89798e2621ea394c.png" alt="file 00000000c210720b89798e2621ea394c" border="0">
+<h1>Jasa Plafon Modern & Elegan</h1>
+
+<p>
+Solusi plafon rumah minimalis, modern,
+dan berkualitas untuk hunian impian Anda.
+</p>
+
+<a href="https://wa.me/6285377191004" class="button">
+
+Konsultasi Sekarang
+
+</a>
+
+</section>
+<section class="gallery">
+
+<h2>Project Kami</h2>
+
+<img src="https://i.ibb.co.com/Xf6fCBYS/fdaebade5bd5839d146c63331ca0a177.jpg">
+
+<img src="https://i.ibb.co.com/BKgNncq9/a5f679b8dc996d8921beb8257a1e7058.jpg">
+
+</section>
+<section class="services">
+  
+<h2>Layanan Kami</h2>
+
+<div class="card">
+
+<h3>Plafon PVC</h3>
+
+<p>
+Modern, tahan air,
+dan elegan.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Panel Wpc</h3>
+
+<p>
+Minimalis dan cocok
+untuk interior modern.
+</p>
+
+</div> </section>
+  
+<section class="testi">
+
+<h2>Testimoni</h2>
+
+<div class="card">
+
+<p>
+"Pelayanan cepat dan hasil rapi."
+</p>
+
+<h4>- Budi</h4>
+
+</div>
+
+</section>
+<section class="cta">
+
+<h2>
+Siap Renovasi Plafon Rumah Anda?
+</h2>
+
+<a href="https://wa.me/6285377191004"
+class="button">
+
+Hubungi Sekarang
+
+</a>
+
+</section>
+<footer>
+
+<p>
+© 2026 plafonsultan.id
+</p>
+
+</footer>
+</body>
+
+</html>
